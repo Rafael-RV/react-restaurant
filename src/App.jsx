@@ -5,7 +5,7 @@ import { Reservaciones } from "./routes/Reservaciones"
 import { Contacto } from "./routes/Contacto"
 import { AsadoArgentino } from "./routes/menus/AsadoArgentino"
 import { AsadoChileno } from "./routes/menus/AsadoChileno"
-import { Main } from "./components/main"
+
 
 
 
