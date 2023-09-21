@@ -2,6 +2,7 @@ import { collection, getDocs } from 'firebase/firestore'
 import React, { useEffect, useState } from 'react'
 import { dataBase } from '../../firebase'
 import Card from 'react-bootstrap/Card';
+import chileno from '../../assets/img/chileno.jpeg'
 
 export const AsadoChileno = () => {
   const asadoChilenoCollectionRef = collection(dataBase, 'asadoChileno');
@@ -23,7 +24,7 @@ export const AsadoChileno = () => {
       {
         asadoChileno.map(asadoCh => (
           <Card key={asadoCh.id} style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={chileno} />
             <Card.Body >
               <Card.Title>{asadoCh.name}</Card.Title>
               <Card.Text>{asadoCh.details}</Card.Text>

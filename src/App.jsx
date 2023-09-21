@@ -5,6 +5,7 @@ import { Reservaciones } from "./routes/Reservaciones"
 import { Contacto } from "./routes/Contacto"
 import { AsadoArgentino } from "./routes/menus/AsadoArgentino"
 import { AsadoChileno } from "./routes/menus/AsadoChileno"
+import { Main } from "./components/main"
 
 
 
@@ -22,7 +23,8 @@ function App() {
         <Route path="/react-restaurant/contacto" element={<Contacto />} />
         <Route path="/react-restaurant/reserva" element={<Reservaciones />} />
         <Route path="/react-restaurant/menus/asadoargentino" element={<AsadoArgentino />} />
-        <Route path="/react-restaurant/menus/asadochileno" element={<AsadoChileno />} />+
+        <Route path="/react-restaurant/menus/asadochileno" element={<AsadoChileno />} />
+       
       </Routes>
       
 
