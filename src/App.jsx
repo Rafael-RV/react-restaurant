@@ -18,12 +18,11 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/react-restaurant/" element={<Inicio />} />
-        <Route path="/react-restaurant/reservaciones" element={<Reservaciones />} />
-        <Route path="/react-restaurant/contacto" element={<Contacto />} />
-        <Route path="/react-restaurant/reserva" element={<Reservaciones />} />
-        <Route path="/react-restaurant/menus/asadoargentino" element={<AsadoArgentino />} />
-        <Route path="/react-restaurant/menus/asadochileno" element={<AsadoChileno />} />
+        <Route path="/" element={<Inicio />} />
+        <Route path="/reservaciones" element={<Reservaciones />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/menus/asadoargentino" element={<AsadoArgentino />} />
+        <Route path="/menus/asadochileno" element={<AsadoChileno />} />
        
       </Routes>
       
