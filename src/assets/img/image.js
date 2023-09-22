@@ -6,5 +6,10 @@ import CorteTomahawk from '../img/corte-tomahawk.jpg';
 import LomoPapas from '../img/Lomo-papas.jpg'
 
 export default [
-    AsadoDeTira
+    argentina,
+    AsadoDeTira,
+    BifeDeChorizo,
+    chileno,
+    CorteTomahawk,
+    LomoPapas
 ]

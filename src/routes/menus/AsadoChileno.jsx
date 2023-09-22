@@ -1,39 +1,16 @@
-import { collection, getDocs } from 'firebase/firestore'
-import React, { useEffect, useState } from 'react'
-import { dataBase } from '../../firebase'
-import Card from 'react-bootstrap/Card';
-import chileno from '../../assets/img/chileno.jpeg'
+import React from 'react'
+import { Dish1 } from '../../components/MenuChileno.jsx/dish1'
+import { Dish2 } from '../../components/MenuChileno.jsx/dish2'
+import { Dish3 } from '../../components/MenuChileno.jsx/dish3'
+import '../../components/CSS/stylesMenus.css'
 
 export const AsadoChileno = () => {
-  const asadoChilenoCollectionRef = collection(dataBase, 'asadoChileno');
-  const [asadoChileno, setAsadoChileno] = useState([]);
-  
-  const getData = async () => {
-    const data = await getDocs(asadoChilenoCollectionRef);
-    const asadoChilenoData = data.docs.map(doc => ({ ...doc.data(), id: doc.id }));
-    setAsadoChileno(asadoChilenoData);
-   
-  }
-
-  useEffect(() => {
-    getData();
-  }, []);
-
   return (
-<>
-      {
-        asadoChileno.map(asadoCh => (
-          <Card key={asadoCh.id} style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={chileno} />
-            <Card.Body >
-              <Card.Title>{asadoCh.name}</Card.Title>
-              <Card.Text>{asadoCh.details}</Card.Text>
-              <Card.Text>{asadoCh.price} </Card.Text>
-
-            </Card.Body>
-          </Card>))
-      }
-
-    </>
+    <div className='card-container'>
+<Dish1/>
+<Dish2/>
+<Dish3/>
+   </div>
   )
 }
+

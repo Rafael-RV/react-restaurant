@@ -1,10 +1,11 @@
-import { Main } from "../components/main"
+import { Home } from "../components/Home"
+
 
 
 export const Inicio = () => {
   return (
     <>
-    <Main/>
-    </> 
+    <Home/>
+    </>
   )
 }

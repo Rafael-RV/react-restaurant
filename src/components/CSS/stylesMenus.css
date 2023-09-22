@@ -1,0 +1,17 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(249, 204, 204);
+}
+
+.card-size {
+    width: 300px;
+  
+}
+
+.card-style{
+    text-align:justify; 
+ }
+ .title-center {
+     text-align: center;
+ }

@@ -1,0 +1,23 @@
+/* NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(226, 115, 115);
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 30px; /* Tamaño de fuente más grande */
+    color: white; /* Texto en color blanco */
+  }
+  
+  .navbar .nav-link {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    color: white; /* Texto en color blanco */
+  }
+  
+  .navbar .nav-item.dropdown .dropdown-menu {
+    background-color: rgb(226, 115, 115); /* Fondo del menú desplegable */
+    color: white; /* Texto en color blanco en el menú desplegable */
+  }
+  
