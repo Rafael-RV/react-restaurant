@@ -1,0 +1,46 @@
+.contenedor-con-fondo {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+
+.contenedor-imagen {
+
+    background-image: url('../../assets/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.6;
+}
+
+.datepicker-custom {
+    background-color: rgb(249, 185, 185);
+    color: #333;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+
+.boton-reservar {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 15%;
+}
+
+.boton-reservar:hover {
+    background-color: #0056b3;
+
+}
+
+
+.texto-blancas {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -3,6 +3,7 @@ import { dataBase } from '../../firebase';
 import { doc, getDoc } from 'firebase/firestore';
 import Card from 'react-bootstrap/Card';
 import image from '../../assets/img/image'; 
+import '../CSS/stylesMenus.css'
 
 export const Dish2 = () => {
   const asadoId = 'f6q9zgaU9O1xRlCj4hpM';

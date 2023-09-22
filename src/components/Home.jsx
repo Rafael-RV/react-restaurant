@@ -1,10 +1,10 @@
 import React from 'react';
 import '../components/CSS/fondo.css';
-import '../components/CSS/h3.css';
 
-export const Home = () => {
+export const Home = (props) => {
   return (
     <div className="contenedor-con-fondo">
+      <h1 className='texto-blanco'>{props.titulo}</h1> 
       <h3 className='texto-blanco'>
         Déjate llevar por un viaje culinario único que te transportará directamente a las
         tradicionales parrillas de Chile y Argentina. Nuestro restaurante es el lugar perfecto
