@@ -1,12 +1,4 @@
 
-
-.contenedor {
-    background-color: #333; /* Color de fondo para el contenedor */
-    color: white; /* Color del texto */
-    padding: 20px; /* Espacio interno */
-   
-  }
-  
   .centrado {
     display: flex;
     flex-direction: column;

@@ -1,11 +1,12 @@
 import React from 'react';
 import '../components/CSS/fondo.css';
+import '../components/CSS/home.css'
 
 export const Home = (props) => {
   return (
     <div className="contenedor-con-fondo">
-      <h1 className='texto-blanco'>{props.titulo}</h1> 
-      <h3 className='texto-blanco'>
+      <h1 className='title'>{props.titulo}</h1> 
+      <h3 className='textB'  >
         Déjate llevar por un viaje culinario único que te transportará directamente a las
         tradicionales parrillas de Chile y Argentina. Nuestro restaurante es el lugar perfecto
         para los amantes de la carne y la parrilla.

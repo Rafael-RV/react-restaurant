@@ -33,7 +33,7 @@ export const Dish1 = () => {
     <>
       {asadoChileno && (
         <Card className='card-style' style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={image[3]} />
+          <Card.Img className='card-image' variant="top" src={image[3]} />
           <Card.Body>
             <Card.Title className='title-center'>{asadoChileno.name}</Card.Title>
             <Card.Text>{asadoChileno.details}</Card.Text>

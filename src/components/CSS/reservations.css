@@ -39,8 +39,11 @@
 }
 
 
-.texto-blancas {
-    color: white;
+.textoReserva {
+    width: 800px;
     font-size: 20px;
-    padding: 10px;
+    color: white;
+    text-align: justify;
+    padding-left: 10%;
+    padding-top: 10px;
 }

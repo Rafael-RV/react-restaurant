@@ -4,6 +4,7 @@ import ReactDatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import '../components/CSS/fondo.css';
 import '../assets/img/fondo.jpg';
+import '../'
 
 export const Reservations = () => {
   const [startDate, setStartDate] = useState(new Date());

@@ -1,0 +1,14 @@
+.textB{
+    width: 800px;
+    text-align: justify;
+    color: white;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.title{
+    padding-top: 10px;
+    color: white;
+    text-align:center;
+
+}

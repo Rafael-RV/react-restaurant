@@ -11,10 +11,13 @@
 
 .card-style{
     text-align:justify; 
+    width: 200px;
  }
  .title-center {
      text-align: center;
  }
 
 
- 
+ .card-image{
+    width: 200px;
+ }
