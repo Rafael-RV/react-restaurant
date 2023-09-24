@@ -1,28 +1,36 @@
+.centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+  padding-left: 10%;
+  margin-top: 10px ;
 
-  .centrado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .texto-grande {
-    font-size: 24px; /* Tamaño de fuente grande */
-  }
-  
-  .texto-blanco {
-    color: white; /* Color del texto blanco */
-  }
-  
-  .boton-azul {
-    background-color: #007BFF; /* Color de fondo azul */
-    border-color: #007BFF; /* Color del borde azul */
-    color: white; /* Color del texto blanco */
-  }
-  
-  .boton-azul:hover {
-    background-color: #0056b3; /* Cambiar el color de fondo en el hover */
-    border-color: #0056b3; /* Cambiar el color del borde en el hover */
-  }
-  
+}
+
+.centrado {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.boton-azul {
+  background-color: #007BFF;
+  border-color: #007BFF;
+  color: white;
+}
+
+.boton-azul:hover {
+  background-color: #0056b3;
+}
+
+.contactT {
+  color: rgb(34, 31, 31);
+
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 20px;
+}

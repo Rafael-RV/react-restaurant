@@ -23,16 +23,16 @@ export const Reservations = () => {
   return (
     <div className="contenedor-con-fondo">
       <ReservationsT />
-      <ReactDatePicker
-        showIcon
-        selected={startDate}
-        onChange={handleDateChange}
-        className="datepicker-custom" 
-      />
-      <button onClick={handleAlertClick} className="boton-reservar">
-        Reservar 
-      </button>
-    
+      <div className='calendly'>
+        <ReactDatePicker
+          selected={startDate}
+          onChange={handleDateChange}
+          className="datepicker-custom"
+        />
+        <button className='buttonR' onClick={handleAlertClick} >
+          Reservar
+        </button>
+      </div>
     </div>
   );
 };

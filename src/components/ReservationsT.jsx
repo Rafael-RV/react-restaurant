@@ -1,4 +1,5 @@
 import React from 'react'
+import '../components/CSS/reservations.css'
 
 
 export const ReservationsT = () => {
